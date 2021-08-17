@@ -1,0 +1,10 @@
+.wrapper{
+    width: var(--widthRigthMenu);
+    background: #2E2E4A;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 70px;
+    z-index: 9;
+}
+

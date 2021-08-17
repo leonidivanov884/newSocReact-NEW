@@ -1,0 +1,104 @@
+.todo{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.todo svg{
+    flex-shrink: 0;
+    width: 22px;
+    height: 22px;
+}
+.todo svg path{
+    fill: context-stroke;
+}
+
+.todo__left{
+    width: 30%;
+    background: #33305a;
+    border-radius: 5px;
+    margin-bottom: 70px;
+}
+.todo__left-titles{
+    background: #33305a;
+    padding: 00px 15px 50px 00px;
+    margin-left: 10px;
+}
+.todo__left-titles a{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 7px;
+    transition: .15s;
+}
+.todo__left-titles a svg{
+    margin-right: 10px;
+}
+.todo__left-titles a:hover{
+    background: rgba(44, 41, 79, 0.65);
+}
+
+.todo__left-all{
+    display: flex;
+    align-items: center;
+    background: #2c294f;
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin: 20px 10px 20px;
+}
+.todo__left-all svg{
+    margin-right: 10px;
+}
+.todo__left-icons{
+    position: absolute;
+    bottom: 4px;
+    width: calc(100% - 20px);
+    display: flex;
+    flex-wrap: wrap;
+    left: 10px;
+    background: #2c294f;
+    padding: 13px 15px 3px;
+    border-radius: 7px;
+    transform-origin: top left;
+    opacity: 0;
+    transform: translateY(100%) scale(0);
+    transition: .3s;
+}
+.todo__left-icons svg{
+    margin-bottom: 10px;
+}
+.todo__left-add{
+    font-size: 15px;
+    padding: 15px 30px;
+    transition: .25s;
+    position: relative;
+    border-top: 1px solid #43416D ;
+    border-bottom: 1px solid #43416D ;
+}
+.todo__left-add svg{
+    margin-right: 15px;
+}
+.todo__left-add input{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    height: 100%;
+    width: 100%;
+}
+.todo__left-add:hover .todo__left-icons{
+    opacity: 1;
+    transform: translateY(100%) scale(1);
+}
+.todo__main{
+    width: calc(70% - 20px);
+    border-radius: 7px;
+    background: rgba(42, 40, 77, 0.61);
+    margin-bottom: 70px;
+}
+.todo__circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 10px;
+}

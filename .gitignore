@@ -1,0 +1,5 @@
+.idea
+my-app/node_modules
+my-app/.idea
+serverAuth/.idea
+serverAuth/node_modules

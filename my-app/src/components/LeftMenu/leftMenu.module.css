@@ -1,0 +1,54 @@
+.wrapper{
+    width: var(--widthLeftMenu);
+    background: #2E2E4A;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 70px;
+    z-index: 9;
+    transition: .5s;
+}
+.nav{
+    display: flex;
+    flex-direction: column;
+}
+.nav li a {
+    padding: 25px 0 25px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(60, 58, 101, 0.63);
+    width: 100%;
+}
+.nav li a p {
+    transition: .3s;
+    transform-origin: left;
+}
+.nav svg{
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+    flex-shrink: 0;
+}
+.toggleBtn{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid rgba(60, 58, 101, 0.63);
+    font-size: 16px;
+}
+.toggleBtn p {
+    transition: .3s;
+    transform-origin: left;
+    white-space: nowrap;
+}
+.toggleBtn svg{
+    transition: .4s;
+    margin-right: 5px;
+    flex-shrink: 0;
+}
+
+.nav li a:hover ,.toggleBtn:hover {
+    background: rgba(0,0,0, 0.07);
+}

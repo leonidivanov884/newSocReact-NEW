@@ -1,0 +1,33 @@
+.header{
+    display: flex;
+    align-items: center;
+    height: var(--heightHeader);
+    background: #43416D;
+    padding-right: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    z-index: 100;
+    border-bottom: 1px solid #1C1E30;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border-right: 1px solid #2B2C47;
+    height: 100%;
+    transition: .5s;
+}
+.logo p {
+    transition: .4s;
+    transform-origin: left;
+    white-space: nowrap;
+}
+
+.logo svg{
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+    margin-right: 15px;
+}
