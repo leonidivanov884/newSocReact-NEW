@@ -1,4 +1,4 @@
-# ReactSoc
+# ReactSoc (in dev)
 ____
 ### 1) React start: port 3000
 ### 2) Server start: port 5000  (npm run start)
