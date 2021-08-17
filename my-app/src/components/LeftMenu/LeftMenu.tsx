@@ -1,10 +1,10 @@
 import React from 'react'
+import {useDispatch, useSelector} from "react-redux";
 import { Link } from 'react-router-dom'
+import {RootState} from "../../redux/store";
+import { toggleStatusPanel } from '../../redux/settings/settingsSlice';
 import style from './leftMenu.module.css'
 import {BiMessageSquareDots, BsArrowBarRight, CgProfile, FaUserFriends, FaUserPlus, FcTodoList, HiUserGroup} from "react-icons/all";
-import {useDispatch, useSelector} from "react-redux";
-import { toggleStatusPanel } from '../../redux/settings/settingsSlice';
-import {RootState} from "../../redux/store";
 
 enum IconsNav {
     CgProfile = "CgProfile",

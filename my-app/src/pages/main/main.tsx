@@ -20,6 +20,7 @@ const Main = () => {
         <div  className={`main ${statusPanel ? '' : 'active'}`}>
             <Switch>
                 <Route path="/Todo/:id" component={Todo} />
+                <Route path="/Todo" component={Todo} />
                 <Route path="/Friends" component={FriendsAll} />
                 <Route path="/Users/:id" component={UsersOne} />
                 <Route path="/Users" component={UsersAll} />

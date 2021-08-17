@@ -51,7 +51,7 @@ const Todo = ({match}: ITodoMain) => {
                         <li>
                             <Link className="flexLine" to={`/Todo/${item.id}`}>
                                 <span className="todo__circle">
-                                    {getRandomArbitrary(0, colors.length + 1)}
+                                    {/*{getRandomArbitrary(0, colors.length + 1)}*/}
                                 </span>
                                 {item.title}
                                 <span style={{marginLeft: '5px', fontSize:'14px'}}>
@@ -74,6 +74,7 @@ const Todo = ({match}: ITodoMain) => {
                 <ul>
                     <li></li>
                 </ul>
+                <h1>IN DEV</h1>
             </div>
         </div>
     )

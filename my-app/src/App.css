@@ -41,7 +41,12 @@ body{
 html{
   height: 100vh;
 }
-
+.svg__white-stroke path {
+  stroke: #fff;
+}
+.svg__white-fill path{
+  fill: #fff;
+}
 svg{
   width: 30px;
   height: 30px;

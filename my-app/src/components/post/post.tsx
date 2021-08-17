@@ -25,14 +25,13 @@ const Post = ({title, img, text, minHeight, likes, views, onLike, onLikeToggle}:
                                      className={onLike ? 'flexLine liked' : 'flexLine'}
                                      style={{marginRight: '10px', fontSize: '16px'}}
                             >
-                                <FcLike  style={{width: '20px'}}/>{likes}
+                                <FcLike className="svg__white-fill"  style={{width: '20px'}}/>{likes}
                             </button>
-                            <div className="flexLine"><GrFormView className="svgInit"/>{views}</div>
+                            <div className="flexLine"><GrFormView className="svg__white-stroke"/>{views}</div>
                         </div>
                     :   null
                 }
             </div>
-
         </div>
     )
 }
